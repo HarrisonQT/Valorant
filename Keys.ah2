@@ -1,0 +1,21 @@
+#Include "Key.ah2"
+Class Keys {
+    static w := Key.new("w","w")
+    static a := Key.new("a","a")
+    static d := Key.new("d","d")
+    static s := Key.new("s","s")
+    static one := Key.new("1", "1")
+    static two := Key.new("2","2")
+    static three := Key.new("3","3")
+    static space := Key.new("Space", "XButton1") 
+    static v := Key.new("v","v")
+    static q := Key.new("q","q")
+    static e := Key.new("e","e")
+    static g := Key.new("g","g")
+    static p := Key.new("p","p")
+    static period := Key.new(".",".")
+    static lshift := Key.new("LShift","LShift")
+    static rshift := Key.new("RShift","RShift")
+    static rctrl := Key.new("RCtrl","RCtrl")
+    ; static ! := Key.new("!","!")
+}
